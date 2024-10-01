@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import First from './components/First.js';
 import reportWebVitals from './reportWebVitals';
-import Second from './components/Second.jsx';
-import Troisieme from './components/Troisieme.jsx';
+import HomePage from './pages/HomePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <First />
-    <Second />
-    <Troisieme />
+    <HomePage/>
   </React.StrictMode>
 );
 
